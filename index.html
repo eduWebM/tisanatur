@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Eduardo">
+  <meta name="copyright" content="eduWebM">
+  <title>TISANATUR - Tu portal del bienestar y la salud</title>
+  <meta name="description" content="Desde Tisanatur te ayudo a encontrarte a ti mismo y a cuidar tu cuerpo, a través del uso de terapias alternativas, remedios naturales y plantas medicinales.">
+  <meta name="keywords" content="remedios naturales, remedios caseros para la tos, bienestar, terapias alternativas, terapias holísticas, naturopatía, herbolaria, llantén, cardo mariano, ajenjo, uña de gato, alimentación saludable, consejos, curiosidades, salud">
+  <link rel="icon" type="images/png" href="imagenes/favicon.png" size="64x64">
+  <link rel="stylesheet" href="css/carrusel.css">
+  <link rel="stylesheet" href="dist/css/lightbox.min.css">
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Media Queries -->
+  <link rel="stylesheet" href="css/styleMobile.css" media="(max-width: 1400px)">
+  <link rel="stylesheet" href="css/styleSmartphone.css" media="(max-width: 700px)">
+  <!-- Box Icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="js/jquery-3.7.0.js"></script>
+  <script src="dist/js/lightbox.js"></script>
+  <script src="js/codigoJQuery.js"></script>
+</head>
+<body>
+	<header class="cabecera">
+        <form action="">
+            <input type="search" name="" id="busqueda" placeholder="tu búsqueda">
+            <button type="button" onclick="buscarTexto()" id="lupa"><i class='bx bx-search-alt-2'></i></button>
+        </form>
+        <nav>
+            <a href="index.html" class="logo">
+                <img id="logotipo" src="imagenes/logotipo3.png" class="iconos" alt="logo" title="TisaNatur">
+            </a>
+            <ul class="menu">
+				<li>
+					<a href="index.html" style="color: #000; text-decoration: underline;">INICIO</a>
+				</li>
+            	<li class="expand menu1">
+                	<a href="">SALUD</a><span class="mas">+</span>
+                	<ul class="submenu menu1">
+                    	<li><a href="cuerpo-humano/cuerpo-humano.html">CUERPO HUMANO</a></li>
+                    	<li><a href="prevencion/prevencion.html">PREVENCIÓN</a></li>
+                    	<li><a href="enfermedades/enfermedades.html">ENFERMEDADES</a></li>
+                	</ul>
+            	</li>
+            	<li class="expand">
+                	<a href="">ALIMENTACION</a><span class="mas">+</span>
+                	<ul class="submenu">
+                    	<li><a href="#">NUTRICIÓN</a></li>
+                 		<li><a href="#">ALIMENTOS</a></li>
+                    	<li><a href="#">DIETAS</a></li>
+                	</ul>
+            	</li>
+            	<li class="expand">
+                	<a href="">REMEDIOS</a><span class="mas">+</span>
+                	<ul class="submenu">
+                    	<li><a href="#">TERAPIAS</a></li>
+                    	<li><a href="#">HERBOLARIA</a></li>
+                	</ul>
+            	</li>
+            	<li class="expand">
+                	<a href="">BIENESTAR</a><span class="mas">+</span>
+                	<ul class="submenu">
+                    	<li><a href="#">HÁBITOS</a></li>
+                    	<li><a href="#">DEPORTE</a></li>
+                    	<li><a href="#">SALUD MENTAL</a></li>
+                	</ul>
+            	</li>
+				<li>
+					<a href="contacto.html">CONTACTO</a>
+				</li>
+            </ul>
+			<a href="#" target="_blank"><img src="imagenes/tienda.png" class="iconos" alt="tienda" title="Ir a la tienda" width="50" height="50" id="tienda"></a>
+			<a href="#" target="_blank"><img src="imagenes/wordpress.png" class="iconos" alt="blog" title="Ir al blog" width="45" height="45" id="blog"></a>
+			<button class="ham" type="button">   
+                <span class="br-1"></span>
+                <span class="br-2"></span>
+                <span class="br-3"></span>
+				<span>MENU</span>
+            </button>
+			<div class="capaSubmenus"></div>
+        </nav>
+    </header>
+	<main>
+		<!-- BANNER -->
+		<section class="banner">
+			<h1>Te ayudo a encontrarte</h1>
+			<p>"Tu cuerpo es como un templo, cuídalo"</p>
+		</section>
+
+		<hr>
+
+		<!-- Últimas Noticias -->
+		<h2>NOTICIAS</h2>
+		<div id="slidebox">
+			<div class="next"></div>
+			<div class="previous"></div>
+			<div class="thumbs">
+				<a href="#" onClick="" class="1 thumbActive">1</a> 
+				<a href="#" onClick="" class="2">2</a> 
+				<a href="#" onClick="" class="3 ">3</a> 
+				<a href="#" onClick="" class="4">4</a> 
+			</div>
+			<ul>
+				<li>
+					<img src="imagenes/pomelo.webp" alt="Pomelo">
+					<p>29 de julio de 2023</p>
+					<h2><a href="https://www.libremercado.com/2023-07-28/vi-tras-la-invasion-de-arroz-indio-llega-el-pomelo-de-sudafrica-otra-fruta-que-entra-con-herbicidas-prohibidos-en-la-ue-7037672/" target="_blank">Llega a España el pomelo de Sudáfrica ... </a></h2>
+				</li>
+				<li>
+					<img src="imagenes/gazpacho-verde.webp">
+					<p>27 de julio de 2023</p>
+					<h2><a href="https://www.20minutos.es/noticia/5160413/0/un-estudio-halla-compuestos-contaminantes-pures-infantiles/" target="_blank">Hallan contaminantes en purés infantiles ... </a></h2>
+				</li>
+				<li>
+					<img src="imagenes/sandias.webp">
+					<p>26 de julio de 2023</p>
+					<h2><a href="https://www.eldiario.es/consumoclaro/alerta-sandias-procedentes-marruecos-contaminadas-pesticida-metomilo_1_10406572.html" target="_blank">Alerta por sandías procedentes de ... </a></h2>
+				</li>
+				<li>
+					<img src="imagenes/wifi.jpg">
+					<p>23 de julio de 2023</p>
+					<h2><a href="https://www.tomecontroldesusalud.com/2023-07-21-nl-exposicion-emf-a-la-tecnologia-inalambrica/" target="_blank">El peligro de la tecnología inalámbrica ... </a></h2>
+				</li>
+			</ul>
+		</div>
+		<hr>
+		
+		<!-- Últimos artículos -->
+		<div class="ultimos">
+			<h2>ULTIMOS ARTICULOS</h2>
+			<section class="articulos">
+				<article>
+					<h3 class="cuerpo-humano">Cuerpo Humano</h3>					
+					<a href="#">
+						<img src="imagenes/heart-2607178_640.jpg" alt="Corazón">
+						<p>Regula tu presión arterial.</p>
+					</a>
+				</article>
+				<article>
+					<h3 class="prevencion">Prevención</h3>
+					<a href="prevencion/prevencion.html">
+						<img src="imagenes/agua-con-limon.jpg" alt="Agua con limón"><p>Agua con limón en ayunas.</p>
+					</a>
+				</article>
+				<article>
+					<h3 class="enfermedades">Enfermedades</h3>
+					<a href="enfermedades/enfermedades.html">
+						<img src="imagenes/remedios-tos.jpg" alt="remedios-para-la-tos"><p>Remedios caseros para la tos.</p>
+					</a>
+				</article>
+				<article>
+					<h3 class="nutricion">Nutrición</h3>
+					<a href="#">
+						<img src="imagenes/hamburguesa.jpg" alt="Hamburguesa"><p>Los peligros de la comida basura.</p>
+					</a>
+				</article>
+				<article>
+					<h3 class="alimentos">Alimentos</h3>
+					<a href="#">
+						<img src="imagenes/ajo.jpg" alt="Ajo"><p>Descubre todas las propiedades del ajo.</p>
+					</a>
+				</article>
+				<article>
+					<h3 class="dietas">Dietas</h3>
+					<a href="#">
+						<img src="imagenes/verduras.jpg" alt="Verduras"><p>Que no falten las verduras en tu dieta.</p>
+					</a>
+				</article>
+				<article>
+					<h3 class="terapias">Terapias</h3>
+					<a href="#">
+						<img src="imagenes/acupuntura.jpg" alt="Acupuntura"><p>El arte milenario de la acupuntura.</p>
+					</a>
+				</article>
+				<article>
+					<h3 class="herbolaria">Herbolaria</h3>
+					<a href="#">
+						<img src="imagenes/stevia.jpg" alt="Stevia"><p>Stevia: sustituto natural del azúcar.</p>
+					</a>
+				</article>
+				<article>
+					<h3 class="habitos">Hábitos</h3>
+					<a href="#">
+						<img src="imagenes/cigarrillos.jpg" alt="Dejar de fumar"><p>Reduce el consumo de cigarrillos.</p>
+					</a>
+				</article>
+				<article>
+					<h3 class="deporte">Deporte</h3>
+					<a href="#">
+						<img src="imagenes/jogging.jpg" alt="Jogging"><p>La práctica del jogging.</p>
+					</a>
+				</article>
+				<article>
+					<h3 class="salud-mental">Salud Mental</h3>
+					<a href="#">
+						<img src="imagenes/pelota-antiestres.jpg" alt="Pelota Antiestrés"><p>Ten a mano una pelota antiestrés.</p>
+					</a>
+				</article>
+				<!-- Lo más leído -->
+				<article class="lomas">
+					<h3>Lo más leído</h3>
+					<ol>
+						<li><a href="#">Cómo protegerte de las ondas electromagnéticas</a></li>
+						<li><a href="#">Propiedades de la infusión del perejil</a></li>
+						<li><a href="#">Realizar un buen calentamiento</a></li>
+						<li><a href="#">René Quintón y su descubrimiento</a></li>
+						<li><a href="#">Dieta alcalina: controla tu ph</a></li>
+						<li><a href="#">Preparación del té verde</a></li>
+						<li><a href="#">La falta de magnesio en nuestra dieta</a></li>
+						<li><a href="#">Somos seres eléctricos</a></li>
+						<li><a href="#">Agua con limón en ayunas</a></li>
+						<li><a href="#">Reduce el consumo de café</a></li>
+					</ol>
+				</article>
+			</section>	
+		</div>
+
+		<hr>
+
+		<!-- Libros recomendados -->
+		<h2>LIBROS RECOMENDADOS</h2>
+		<section class="libros">
+			<div>
+				<a href="imagenes/yo-negacionista-Back.jpg" data-lightbox="negacionista"><img src="imagenes/yo-negacionista.jpg" alt="Yo, negacionista"></a>
+			</div>
+			<div>
+				<a href="imagenes/cancer-no-es-enfermedad-Back.jpg" data-lightbox="cancer"><img src="imagenes/cancer-no-es-enfermedad.jpg" alt="El cancer no es una enfermedad"></a>
+			</div>		
+			<div>
+				<a href="imagenes/dieta-delfin-Back.jpg" data-lightbox="delfin"><img src="imagenes/dieta-delfin.jpg" alt="La dieta del delfín"></a>
+			</div>
+			<div>
+				<a href="imagenes/lo-que-tu-luz-dice-Back.jpg" data-lightbox="tu luz"><img src="imagenes/lo-que-tu-luz-dice.jpg" alt="Lo que tu luz dice"></a>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<span>©Copyright: Todos los derechos reservados</span>
+		<div>
+			<a href="contacto.html">Contacto</a>
+			<a href="#">Quiénes somos</a>
+		</div>
+		<div>
+			<a href="https://wa.me/34675768902/?text=tu%20texto%20personalizado" target="_blank">
+				<img src="imagenes/logo-wasap.png" class="iconos" alt="whatsapp" title="whatsapp" width="50" height="50"></a>
+			<a href="mailto:name@email.com" target="_blank">
+				<img src="imagenes/mail.png" class="iconos" alt="e-mail" title="e-mail" width="50" height="50"></a>
+			<a href="tel:+34555005500" target="_blank">
+				<img src="imagenes/phone.png" class="iconos" alt="telefono" title="teléfono" width="50" height="50"></a>
+		</div>
+	</footer>
+	<img src="imagenes/curiosidades.png" class="btnPanel" alt="Curiosidades" title="¿Sabías que ... ?">
+
+	<!-- Panel Derecho deslizante -->
+	<div class="panelDcho">
+		<p>
+			La palabra <i>acupuntura</i> significa literalmente "inserción de agujas" y fue acuñada por un médico holandés llamado Willem Ten Rhyne, que introdujo el tratamiento en el Viejo Continente en 1683, después de permanecer dos años en Nagasaki (Japón).
+		</p>
+	</div>
+	<button type="button" class="arriba" onclick="haciaArriba()"><img src="imagenes/flecha.png" width="50" height="50"></button>
+	<script src="js/codigoJS.js" defer></script>
+	<script src="js/jcarousellite_1.0.1c5.js" defer></script>
+</body>
+</html>
