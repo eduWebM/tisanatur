@@ -149,9 +149,9 @@ $(document).ready(function() {
     // inicializo el array de imágenes
     let imagenes = [];
     if (numeroSeparadores > 2) // sólo para los artículos (sólo para localhost - si está alojado en un servidor en www.midominio.com el valor sería 1)
-        imagenes = ["../imagenes/selva-tropical.jpg", "../imagenes/lago.jpg", "../imagenes/agapanto.jpg"];
+        imagenes = ["../imagenes/invierno.webp", "../imagenes/primavera.webp", "../imagenes/verano.webp", "../imagenes/otoño.webp"];
     else // resto de páginas (inicio, categorias, contacto, ...)
-        imagenes = ["imagenes/selva-tropical.jpg", "imagenes/lago.jpg", "imagenes/agapanto.jpg"];
+        imagenes = ["imagenes/invierno.webp", "imagenes/primavera.webp", "imagenes/verano.webp", "imagenes/otoño.webp"];
 
     const cuerpo = document.querySelector("body");
     let indice = 0;
