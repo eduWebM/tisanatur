@@ -46,7 +46,7 @@ export default function votacion(fullArticle, formVoto, voteButton){
                 if(value === idFullArticle){
                     // creo la imagen de voto emitido
                     const $imgVotoEmitido = d.createElement('img');
-                    $imgVotoEmitido.setAttribute("src", "../assets/img/coffee-lover.svg");
+                    $imgVotoEmitido.setAttribute("src", "../tisanatur/assets/img/coffee-lover.svg");
                     $imgVotoEmitido.setAttribute("alt", "Amante del café");
                     $imgVotoEmitido.classList.add("img-voto-emitido");
                     // creo el texto de voto emitido
