@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leer Artículo - Toda la descripción completa del artículo seleccionado.</title>
+    <meta name="description" content="Información completa acerca del uso de las plantas medicinales, los alimentos sanos y naturales, y el conocimiento de nuestro cuerpo para obtener un óptimo bienestar.">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Tipografía: Edu AU VIC WA NT Hand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+    <!-- Tipografía: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Estilos Propios -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <div data-include="header.html"></div>
+    <main>
+        <nav class="nav-migas">
+            <a href="index.html"><span class="migaja">Inicio</span></a>
+            <span class="migaja"><img src="assets/img/nav-arrow-right-color.svg" alt="Flecha Derecha"></span><a href=""><span class="migaja categoria"></span></a>
+        </nav>
+        <section id="full-article"></section>
+
+        <div class="form-voto">
+            <div class="g-recaptcha" data-sitekey="6LfTqRkqAAAAAEygCD3hmtkAHHQZMhhVl9zh1mUB"></div>
+            <div class="contain-button">
+                <img id="voteButton" src="assets/img/taza-de-cafe-verde.png" alt="Taza de café" title="Me gusta">
+            </div>
+        </div>
+        <!-- <p id="voteCount">Votos: <span id="voteDisplay">0</span></p> -->
+    </main>    
+    <footer class="footer-main">
+        <h4>Copyright &copy; 2024 eduwebM - Todos los derechos reservados</h4>
+    </footer>
+    <button class="dark-theme-btn" title="Oscurecer">🌕</button>
+    <script src="assets/js/index.js" type="module" defer></script>
+</body>
+</html>
