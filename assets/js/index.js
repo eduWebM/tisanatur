@@ -28,6 +28,7 @@ d.addEventListener("DOMContentLoaded", async(e) => {
 
     buscador("search", "#busqueda", ".contain-search-close", "#busqueda-template", ".section-busqueda");
 
+    console.log(path);
     if (path === '/' || path === '/index.html' || path === '/categoria.html' || path === '/tisanatur/' || path === '/tisanatur/index.html') {
         cargarPosts(".latest", "#post-template", ".fondo", "#next", "#prev");
         popular(".popular", ".list-popular");
