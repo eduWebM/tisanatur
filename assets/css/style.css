@@ -422,7 +422,7 @@
 
 @layer hero-image{
     .hero-image{
-        background-image: url("tisanatur/assets/img/sendero.webp");
+        background-image: url("/tisanatur/assets/img/sendero.webp");
         height: 100vh;
         background-position: center;
         background-repeat: no-repeat;
