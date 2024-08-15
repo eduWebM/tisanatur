@@ -1,0 +1,33 @@
+<header class="header-nav">
+    <div class="menu-icons">
+        <img src="assets/img/ham-menu.svg" alt="Menú Hamburguesa" class="ham" data-open="0">
+        <a href="index.html" class="a-logo"><img src="assets/img/tisanatur_oscuro.svg" alt="Logotipo Tisanatur" id="logo"></a>
+    </div>
+    <nav class="nav-bar">
+        <ul class="menu-bar">
+            <!--<li><a href="#" class="link-menubar"><span>Ver Todos</span></a></li>-->
+            <li><a href="categoria.html?slug=plantas" class="link-menubar"><span>Plantas</span></a></li>
+            <li><a href="categoria.html?slug=alimentos" class="link-menubar"><span>Alimentos</span></a></li>
+            <li><a href="categoria.html?slug=ejercicio" class="link-menubar"><span>Ejercicio</span></a></li>
+            <li><a href="categoria.html?slug=bienestar" class="link-menubar"><span>Bienestar</span></a></li>
+        </ul>
+    </nav>
+    <search>
+        <form action="#">
+            <input type="search" name="" id="busqueda" placeholder="buscar">
+            <img src="assets/img/search.svg" alt="Búsqueda">
+        </form>
+        <!-- <span class="search-close">&#215;</span> -->
+        <div class="contain-search-close"><div class="search-close"></div></div>
+        <section class="section-busqueda"></section>
+        <template id="busqueda-template">
+            <article class="articulo-busqueda"> 
+                <div class="imagen"></div>
+                <div class="info">
+                    <h3 class="title-h3"></h3>
+                    <a href="" class="button-link">Leer Más</a>
+                </div>                   
+            </article>
+        </template>
+    </search>
+</header>
