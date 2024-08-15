@@ -49,7 +49,7 @@ export default function leerPost(fullArticle,categoria,fondo){
                 if (article) {
                     // escribo la categoría en las 'migas'
                     $categoria.textContent = article.categoria;
-                    $categoria.parentNode.setAttribute("href", `/categoria.html?slug=${article.categoria}`);
+                    $categoria.parentNode.setAttribute("href", `categoria.html?slug=${article.categoria}`);
 
                     // título del artículo
                     const $titleArticle = d.createElement('h1');
