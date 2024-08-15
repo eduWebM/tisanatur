@@ -20,12 +20,12 @@ export default function btnHam(hamburguer, search, menuIcons, navBar){
                 // Cambio la imagen del botón hamburguesa
                 let open = $ham.getAttribute("data-open");
                 if(open == 0){
-                    $ham.setAttribute("src", "../assets/img/close-menu.svg");
+                    $ham.setAttribute("src", "../tisanatur/assets/img/close-menu.svg");
                     $ham.setAttribute("data-open", "1");
                     $search.style.display = "none";
                     
                 } else {
-                    $ham.setAttribute("src", "../assets/img/ham-menu.svg");
+                    $ham.setAttribute("src", "../tisanatur/assets/img/ham-menu.svg");
                     $ham.setAttribute("data-open", "0");
                     $search.style.display = "block";
 
