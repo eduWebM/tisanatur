@@ -444,7 +444,7 @@
             position: relative;
 
             &::after{
-                content: url("tisanatur/assets/img/hojas-de-otono.png");
+                content: url("/tisanatur/assets/img/hojas-de-otono.png");
                 position: absolute;
                 left: 0;
                 bottom: -70%;
